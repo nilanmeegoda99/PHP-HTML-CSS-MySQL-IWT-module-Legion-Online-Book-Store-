@@ -1,0 +1,1286 @@
+body{
+    
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+*{
+    margin:0;
+    padding:0;
+}
+.main_container
+{
+    width: 100%;
+    height:1750px;
+    margin: 0 auto;
+   background: #fffbfb;;
+
+}
+
+/*Start of top bar*/
+.top_head{
+    
+        width: 100%;
+        height: 90px;
+        background: #0597c4b3;
+        margin-bottom: 2px;
+    
+}
+
+.top_head .mlogo
+{
+    float: left;
+    margin-top: 3px;
+    margin-left: 5px;
+}
+
+.top_head .logopic
+{
+    height: 77px;
+    width: 77px;
+}
+.top_head .wmoto
+{
+    float: left;
+    padding-left: 33px;
+    padding-top: 33px;
+}
+.top_head #moto
+{
+    color: #fffefe;
+}
+
+.top_head #usertag
+{
+    float: right;
+    padding-right: 24px;
+    padding-top: 13px;
+    color: #f1f1f1;
+}
+
+.top_head #carttag
+{
+    float: right;
+    padding-right: 34px;
+    padding-top: 14px;
+    color: #f1f1f1;
+    
+
+}
+
+.top_head .crtnum
+{
+    border-radius: 50%;
+    width: 13px;
+    height: 6px;
+    padding: 4px;
+    margin-top: 3px;
+    margin-left: 3px;
+    
+    border: 2px solid #fff;
+    color: #fff;
+    text-align: center;
+    font: 12px Arial, sans-serif;
+}
+
+.top_head .button
+{
+    background-color: #4CAF50; /* Green */
+  border: none;
+  color: white;
+  padding: 8px 29px;
+  text-align: center;
+  text-decoration: none;
+  display: inline-block;
+  font-size: 16px;
+  margin: 4px 2px;
+  border-radius: 5px;
+  
+  transition-duration: 0.4s;
+  cursor: pointer;
+}
+.top_head .regbutton{
+    background-color: #0f6dda; 
+    color: white; 
+    border: 1px solid #fdfffe;
+  }
+  
+.top_head .regbutton:hover  {
+    background-color: #fdfffe;
+    color: black;
+  }
+
+  .top_head .signbutton{
+    background-color: #0f6dda; 
+    color: white; 
+    border: 1px solid #fdfffe;
+  }
+  
+.top_head .signbutton:hover  {
+    background-color: #fdfffe;
+    color: black;
+  }
+
+.top_head .reg-signbt
+{
+    height:40px;
+    float: right;
+    margin-top: 43px;
+    margin-right: -233px;
+    
+}
+
+
+/*End of top bar */
+/* Navigation bar CSS part */
+.nav{
+        
+        width: 100%;
+        height: 46px;
+        
+
+}
+.nav ul {
+    
+    list-style-type: none;
+    margin: 0;
+    padding: 0;
+    overflow: hidden;
+    background-color: #d1ced3;
+    border-radius: 5px;
+  }
+  
+.nav ul li {
+    
+    float: left;
+  }
+  
+.nav ul li a, .dropbtn {
+    display: block;
+    color: black;
+    text-align: center;
+    padding: 14px 16px;
+    text-decoration: none;
+    font-size: 17px;
+  }
+  
+.nav ul li a:hover:not(.active), .dropdown:hover .dropbtn {
+    background-color: #ddd;
+  color: black;
+  }
+.nav li.dropdown {
+    display: inline-block;
+  }
+
+.nav .dropdown-content {
+    display: none;
+    position: absolute;
+    background-color: rgba(249, 249, 249, 0.5);
+    min-width: 160px;
+    box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+    z-index: 1;
+  }
+  
+.nav  .dropdown-content a {
+    color: black;
+    padding: 12px 16px;
+    text-decoration: none;
+    display: block;
+    text-align: left;
+  }
+  
+.nav  .dropdown-content a:hover {background-color: #f1f1f1;}
+  
+.nav  .dropdown:hover .dropdown-content {
+    display: block;
+  }
+.nav ul .active {
+    background-color: #2196F3;
+    color: white;
+    border-radius: 5px;
+  }
+.nav ul li.righte{
+    float: right;
+}
+.nav input[type=text] {
+    border: 1px solid #ccc; 
+    border-radius: 5px; 
+  }
+.nav .search-container {
+    float: right;
+    
+}
+.nav input[type=text] {
+    padding: 6px;
+    margin-top: 8px;
+    font-size: 17px;
+    border: none;
+}
+.nav .search-container button {
+    float: right;
+    padding: 6px 10px;
+    margin-top: 8px;
+    margin-right: 16px;
+    background: #ddd;
+    font-size: 17px;
+    border: none;
+    cursor: pointer;
+    border-radius: 5px;
+}
+.nav .search-container button:hover {
+    background: #ccc;
+}
+
+  
+
+
+
+
+
+/*End of navigation bar part*/
+
+/* slide show part*/
+.banner
+{
+        width: 100%;
+        height:500px ;
+        background: #4b4949;
+        margin-top: 7px;
+        
+}
+
+
+.mySlides {
+    
+    display:none;
+    width: 100%;
+    height:500px ;
+}
+
+
+
+/*End of slide show part*/
+
+/*start of content*/
+.content{
+        margin-top: 10px;
+        margin-bottom: 10px;
+        width: 100%;
+        height: 955px;
+        background: #ffff;
+
+}
+
+/* vertical bar*/
+.leftbar{
+    width: 20%;
+    height:100%;
+    
+    float: left;
+
+}
+
+.leftbar .vertical-menu
+{
+   
+  width: 100%;
+  height: 429px;
+  float: left;
+  overflow-y: auto;
+}
+.leftbar .vertical-menu a {
+    background-color: #eee;
+    color: black;
+    display: block;
+    padding: 12px;
+    text-decoration: none;
+  }
+  
+.leftbar .vertical-menu a:hover {
+    background-color: #ccc;
+  }
+  
+.leftbar .vertical-menu a.active {
+    background-color: #575f63;
+    color: white;
+  }
+.leftbar .trendsleft
+{
+    float: left;
+    width : 100%;
+    height: 475px;
+    
+}
+.leftbar .trendsleft .timg{
+    width : 100%;
+    height: 241px;
+    border-radius: 5px;
+}
+/* end of v bar*/
+
+/*start mid content*/
+.mid-content
+{
+    width: 65%;
+    height:100%;
+    background: #ffff;
+    float: left;
+}
+.mid-content .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    
+    margin-left: 18px;
+    margin-top: 25px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: arial;
+    float : left;
+    border-radius: 5px;
+
+  }
+
+   .plrightbar .card {
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+    max-width: 200px;
+    height: 500px;
+    margin-left: 18px;
+    margin-top: 25px;
+    padding-top: 5px;
+    text-align: center;
+    font-family: arial;
+    float : left;
+    border-radius: 5px;
+
+  }
+
+  
+  
+  .mid-content .price , .plrightbar .price  {
+    color: grey;
+    font-size: 16px;
+  }
+  
+  .mid-content .card button , .plrightbar .card button {
+    border: none;
+    outline: 0;
+    padding: 12px;
+    color: white;
+    background-color: #0d73c5;
+    text-align: center;
+    cursor: pointer;
+    width: 100%;
+    font-size: 12px;
+    border-radius: 5px;
+  }
+  .mid-content .prodesc , .plrightbar .prodesc {
+      font-size: 13px;
+  }
+  .mid-content .card button:hover , .plrightbar .card button:hover {
+    opacity: 0.7;
+  }
+
+  .mid-content .centerpagination , .plrightbar .centerpagination{
+
+        text-align: center;
+        
+  }
+
+  .mid-content .pagination , .plrightbar .pagination {
+    display: inline-block;
+    padding-top: 25px;
+  }
+  
+  .mid-content .pagination a , .plrightbar .pagination a {
+    color: black;
+    float: left;
+    padding: 8px 16px;
+    text-decoration: none;
+    transition: background-color .3s;
+    border: 1px solid #ddd;
+    margin: 0 4px;
+  }
+  
+ .mid-content .pagination a.active , .plrightbar .pagination a.active   {
+    background-color: #0d73c5;
+    color: white;
+    border: 1px solid #0d73c5;
+  }
+  
+ .mid-content .pagination a:hover:not(.active) , .plrightbar  .pagination a:hover:not(.active) {
+     background-color: #ddd;
+    }
+
+
+  
+/*end of mid content*/
+/*start  of right bar*/
+.rightbar
+{
+    width: 15%;
+    height:100%;
+    background: white;
+    float: right;
+}
+.rightbar .quotes
+{
+    width: 100%;
+    height: 40%;
+    
+
+}
+.rightbar .rbbtns
+{
+   margin-top: 10px;
+    width: 100%;
+
+}
+.rightbar .qimg
+{
+    width: 100%;
+    height: 100%;
+    display:none;
+}
+
+.rightbar .buttonr
+{
+    width: 100%;
+    height: 50px;
+    padding-top : 3px;
+    border-radius: 6px;
+
+
+}
+
+.rightbar .buttonr{
+    background-color: #0c7981; 
+    color: white; 
+    border: 1px solid #fdfffe;
+  }
+  
+  .rightbar .buttonr:hover  {
+    background-color: #fdfffe;
+    color: black;
+    border: 1px solid #141414;
+  }
+  .rightbar .ads
+  {
+    margin-top: 32px;
+    width: 100%;
+    height: 281px;
+  }
+ 
+  .rightbar .aimg{
+      width: 100%;
+      height:100%;
+      display: none;
+  }
+/*end of right bar*/
+/*End of content*/
+
+/*Footer*/
+.footer{
+
+        width: 100%;
+        height: 200px;
+        background: #3a3736;
+        text-align: center;
+
+}
+.footer p{
+    font-family: 'Times New Roman', Times, serif;
+    color: #fffbfb;
+    padding-top: 46px;
+}
+.footer .paymtimg
+{
+    padding-top: 30px;
+    margin-left: -175px;
+}
+.footer .footerpg
+{
+    margin-left: 20px;
+    margin-top: 20px;
+    float: left;
+    text-align: left;
+    color: white;
+}
+.footer .footli{
+
+    color: #ccc;
+    
+    text-decoration: none;
+}
+/*End of footer*/
+/*-------------------------------------------------------------------------- 2nd page -------------------------- */
+.content2
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1588px;
+    background: #ffff;
+}
+
+.content2 .prodimgbox
+{
+
+    width: 100%;
+    height: 600px;
+    background: rgba(36, 35, 31, 0.2);
+}
+
+
+.content2 .prodcard {
+    box-shadow: 0 4px 8px 0 rgba(61, 59, 55, 0.5);
+    width: 400px;
+    margin-left: 169px;
+    margin-top: 39px;
+    padding-top: 15px;
+    padding-left: 5px;
+    padding-right: 5px;
+    text-align: center;
+    font-family: arial;
+    float: left;
+    border-radius: 5px;
+
+
+  }
+
+.content2 .prdescbox{
+
+    box-shadow: 0 4px 8px 0 rgba(61, 59, 55, 0.5);
+    margin-top: 50px;
+    margin-right: 90px;
+    border-width: 4px;
+    padding-left: 20px;
+    float: right;
+    width: 528px;
+    height: 489px;
+    background: #ffffff;
+    border-radius: 7px;
+
+}  
+
+.content2 .prdesc{
+    padding-top: 50px;
+    padding-left: 30px;
+    padding-right: 30px;
+
+}
+
+.content2 .pvb{
+
+    margin-top: 70px;
+    margin-left: 31px;
+    width: 125px;
+    height: 44px;
+    border-radius: 545px;
+    background-color: #0c7981; 
+    color: white; 
+    border: 1px solid #fdfffe;
+
+
+}
+
+
+ 
+  .content2 .pvb:hover  {
+    background-color: #fdfffe;
+    color: black;
+    border: 1px solid #141414;
+    border-radius: 545px;
+  }
+
+  .content2 .input-quntity
+  {
+      margin-left: 5px;
+      
+  }
+
+  /* user ratings part */
+
+  .content2 .user-ratings
+  {
+      margin-top: 40px;
+  }
+
+  .content2 .user-ratings .heading {
+    font-size: 25px;
+    margin-right: 25px;
+  }
+  
+  .content2 .user-ratings .fa {
+    font-size: 25px;
+  }
+  
+  .content2 .user-ratings .checked {
+    color: orange;
+  }
+  
+  /* Three column layout */
+  .content2 .user-ratings .side {
+    float: left;
+    width: 15%;
+    margin-top:10px;
+  }
+  
+  .content2 .user-ratings .middle {
+    margin-top:10px;
+    float: left;
+    width: 70%;
+  }
+  
+  /* Place text to the right */
+  .content2 .user-ratings .right {
+    text-align: right;
+  }
+  
+  /* Clear floats after the columns */
+  .content2 .user-ratings .row:after {
+    content: "";
+    display: table;
+    clear: both;
+  }
+  
+  /* The bar container */
+  .content2 .user-ratings .bar-container {
+    width: 100%;
+    background-color: #f1f1f1;
+    text-align: center;
+    color: white;
+  }
+  
+  /* Individual bars */
+  .content2 .user-ratings .bar-5 {width: 60%; height: 18px; background-color: #4CAF50;}
+  .content2 .user-ratings .bar-4 {width: 30%; height: 18px; background-color: #2196F3;}
+  .content2 .user-ratings .bar-3 {width: 10%; height: 18px; background-color: #00bcd4;}
+  .content2 .user-ratings .bar-2 {width: 4%; height: 18px; background-color: #ff9800;}
+  .content2 .user-ratings .bar-1 {width: 15%; height: 18px; background-color: #f44336;}
+  
+  /* Responsive layout - make the columns stack on top of each other instead of next to each other */
+  @media (max-width: 400px) {
+    .content2 .user-ratings .side, .content2 .user-ratings .middle {
+      width: 100%;
+    }
+    .content2 .user-ratings .right {
+      display: none;
+    }
+  }
+
+  /* End of user ratings */
+
+  /*start of recommende books*/
+    .content2 .recomnd-books ,.content2 .recomnd-authrs
+    {
+
+        margin-top: 20px;
+        overflow-x: scroll;
+        overflow-y: hidden;
+        white-space: nowrap;
+
+    }
+    
+    .content2 .recomnd-books .gallery , .content2 .recomnd-authrs .gallery {
+        margin: 5px;
+        border: 1px solid #ccc;
+        
+        width: 180px;
+
+        display: inline-block;
+      }
+      
+      .content2 .recomnd-books .gallery:hover , .content2 .recomnd-authrs .gallery:hover  {
+        border: 2px solid #3958df;
+      }
+      
+      .content2 .recomnd-books .gallery img , .content2 .recomnd-authrs .gallery img  {
+        width: 100%;
+        height: 200px;
+      }
+      
+      .content2 .recomnd-books .desc , .content2 .recomnd-authrs .desc  {
+        padding: 15px;
+        text-align: center;
+      }
+
+
+  /* End of recommended books*/
+
+  /*-------------------------------------------------------------------------- product-listing page -------------------------- */
+.content3
+{
+    margin-top: 10px;
+    margin-bottom: 10px;
+    width: 100%;
+    height: 1788px;
+    background: rgba(255, 255, 255, 0.702);
+}
+
+/* start of left bar*/
+
+.content3 .plleftbar
+{
+    width: 30%;
+    height:96% ;
+    float: left;
+    border-style: solid;
+    border-color: rgb(128, 128, 128,0.3);
+    border-width: 1px;
+    border-radius: 10px;
+    
+}
+
+.content3 .plrightbar
+{
+    width:70%;
+    height:96%;
+    float: right;
+    margin-top: 08px;
+}
+.content3 .plleftbar .maincat
+{
+    height: 27%;
+    border-radius: 0px;
+    background-color: rgb(74, 73, 73,0.2);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.content3 .plleftbar .subcat
+{
+    height:27%;
+    border-radius: 8px;
+    background-color: rgba(223, 205, 205, 0.2);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+.content3 .plleftbar .typecat
+{
+    height: 27%;
+    border-radius: 8px;
+    background-color: rgba(252, 249, 249, 0.2);
+    margin-top: 10px;
+    margin-left: 5px;
+    margin-right: 5px;
+}
+
+.content3 .plleftbar .ladds
+{
+    width: 100%;
+    height: 15%;
+}
+.content3 .plleftbar .laddimg
+{
+    margin-top: 10px;
+    width: 98%;
+    height: 104%;
+    display: none;
+    margin-left: 5px;
+    border-radius: 5px;
+}
+
+/*check box styles
+
+/* The container */
+.content3 .chkcontainer {
+    display: block;
+    position: relative;
+    padding-left: 35px;
+    margin-bottom: 12px;
+    cursor: pointer;
+    font-size: 22px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+  }
+  
+  /* Hide the browser's default checkbox */
+  .content3 .chkcontainer input {
+    position: absolute;
+    opacity: 0;
+    cursor: pointer;
+    height: 0;
+    width: 0;
+  }
+  
+  /* Create a custom checkbox */
+  .content3 .checkmark {
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 25px;
+    width: 25px;
+    background-color: #eee;
+  }
+  
+  /* On mouse-over, add a grey background color */
+  .content3 .chkcontainer:hover input ~ .checkmark {
+    background-color: #ccc;
+  }
+  
+  /* When the checkbox is checked, add a blue background */
+  .content3 .chkcontainer input:checked ~ .checkmark {
+    background-color: #2196F3;
+  }
+  
+  /* Create the checkmark/indicator (hidden when not checked) */
+  .content3 .checkmark:after {
+    content: "";
+    position: absolute;
+    display: none;
+  }
+  
+  /* Show the checkmark when checked */
+  .content3 .chkcontainer input:checked ~ .checkmark:after {
+    display: block;
+  }
+  
+  /* Style the checkmark/indicator */
+  .content3 .chkcontainer .checkmark:after {
+    left: 9px;
+    top: 5px;
+    width: 5px;
+    height: 10px;
+    border: solid white;
+    border-width: 0 3px 3px 0;
+    -webkit-transform: rotate(45deg);
+    -ms-transform: rotate(45deg);
+    transform: rotate(45deg);
+  }
+
+
+/* End of left bar*/
+
+/* start of right bar*/
+  
+/* pic gallery 
+/* End of right bar*/
+
+
+
+/*----------------------------------------------SANDARU-------------------------------------------------------------*/
+.spara{
+	margin-left :120px;
+	margin-right:80px;
+	
+	
+	}
+	
+.simage{
+
+	margin-left :300px;
+    margin-top:50px;
+    border-radius: 5px;
+
+	
+    }
+    
+  /*----------------------------------------------SANDARU-------------------------------------------------------------*/
+/*-----------------------------------------------Pasindu----------------------------------------------------------*/
+
+.pamain_container
+{
+    width: 100%;
+    height:100%;
+    margin: 0 auto;
+
+}
+
+
+/*Footer*/
+.pafooter{
+
+    width: 100%;
+    height: 200px;
+    background: #333333;
+    text-align: center;
+    position:relative;
+    bottom:0px;
+}
+.pafooter p{
+font-family: Times New Roman, Times, serif;
+color: #fffbfb;
+padding-top: 75px;
+}
+/*End of footer*/
+
+
+
+
+
+
+
+
+/*---------------------------------------------Pasindu------END---------------------------------------*/
+
+/*------------------------------------------Hashini--------Start--------------------------------------*/
+
+/*...............Hashini...Search page..................*/
+* {
+    box-sizing: border-box;
+  }
+  
+  form.hsearch input[type=text] {
+    padding: 35px;
+    font-size: 17px;
+    border: 1px solid grey;
+    float: left;
+    width: 60%;
+    background: #ffffff;
+    margin-top: 50px;
+    border-radius: 5px;
+    margin-left: 100px;
+  }
+  
+  
+  form.hsearch button {
+    float: left;
+    width: 20%;
+    padding: 30px;
+    background: #00cc99;
+    color: white;
+    font-size: 10px;
+    border: 1px solid grey;
+    border-left: none;
+    cursor: pointer;
+    margin-top: 50px;
+    border-radius: 5px;
+  }
+  
+  form.hsearch button:hover {
+    background: #0b7dda;
+  }
+  
+  form.hsearch::after {
+    content: "";
+    clear: both;
+    display: table;
+  }
+  
+  .hasrchcontent{
+      width: 90%;
+      height:1000px ;
+  
+  
+  }
+  
+  .himage{
+      padding: 5px;
+      border-radius: 5px;
+      height: 350px;
+      
+      float: left;
+      border: 5px solid #f5f5f0;
+  }
+  
+  /*.............................Hashini...User profile page..............*/
+  
+  .haucontent{
+  
+      width: 100%;
+      height:1000px ;
+      background: #ffffff;
+  
+  }
+  
+  .hleft{
+      width: 30%;
+      float: left;
+      height:300px;
+  }
+  
+  .hright{
+      width: 70%;
+      float: right;
+      height:1000px;
+      background: #ffffe6;
+  }
+  
+ 
+  
+  .hmostbottom{
+      width: 30%;
+      float: left;
+      height:300px;
+      
+      
+  }
+  
+  .hdp{
+      float: left;
+      height: 70%;
+      width: 60%;
+      margin-left: 60px;
+      margin-top: 40px;
+      padding-bottom: 10px;
+  }
+  
+  .hname{
+      
+      margin-left: 115px;
+      margin-top: 246px;
+  }
+  
+  .hfm{
+      margin-left: 70px;
+      margin-right: 200px;
+      margin-top: 70px;
+  
+      
+  }
+  
+  .hdata{
+      margin-left: 30px;
+  
+  }
+  
+  .himgs{
+      height: 250px;
+      width: 200px;
+      margin-top: 15px;
+      margin-left: 80px;
+      padding: 2px;
+      float: left;
+      box-shadow: 10px 10px 5px grey;
+
+      display: none;
+  }
+  
+  .hinput{
+      width: 300px;
+      height: 40px;
+      margin-left: 20px;
+      border-radius: 5px;
+      margin-bottom: 20px;
+      
+  }
+  
+  .hlogo{
+      height: 140px;
+      width: 150px;
+      margin-left: 200px;
+      
+  }
+  .hbottom
+  {
+    
+    width: 30%;
+    height: 400px;
+
+
+     float: left;
+    
+  }
+ 
+
+  
+  
+  /*.......................Hashini..........Terms and Conditions.........*/
+  
+  .hatcontent{
+  
+      width: 100%;
+      height:1500px ;
+      background: #ffffff;
+  
+  }
+  
+  .htrms{
+      padding: 20px;
+      
+      
+  }
+  
+  .hpara{
+      margin-left: 20px;
+      
+  }
+
+  
+  
+  /*------------------------------------------Hashini--------End--------------------------------------*/
+
+  /*-----------------------------------------Amadi ---------------Start-------------------------------*/
+
+  .amadicontent{
+  
+    width: 100%;
+    height:1000px ;
+    background: #ffffff;
+
+} 
+.abord{
+	background-color:gray;
+	padding:5% 5% 5% 5% ;
+	margin:0% 25% 0% 25%;
+	border:groove,1px,black;
+	
+}
+.aspace{
+	
+	margin:2% 0% 0% 0%;
+	font-size:18px;
+	margin-left: -82px;
+	width: 100%;
+}
+
+.aspace .areglbl
+{
+	
+	margin-left : -10px;
+	
+}
+.atrans{
+    
+    background-color:rgb(225, 225, 226  ,0.92);
+	
+}
+#areg-log{
+	background-image:url('../images/library-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+.awelcome{
+	font-family:Arial;
+	font-size:30px;
+	margin :5px;
+	padding:1px;
+	
+}
+.adefaultTextBox {
+	margin-left: 3px;
+    border-color:#D7BDE2;
+	height:4%;
+	width: 60%;
+	border: 1px solid #3366FF;
+	border-left: 4px solid #3366FF;
+	font-family:tahoma, arial, sans-serif;
+	font-size:18px;
+}
+.adefaultTextBox:hover{
+	margin-left: 3px;
+	height:4%;
+	width: 60%;
+	color:#333333;
+	border-left: 4px solid #3366FF;
+}
+.awel-wrap{
+	background-color: #2471A3;
+	padding:5px ;
+	margin:3% 25% 0% 25%;
+	border:groove,1px,black;
+}
+
+.abtn-login{
+	padding:5px;
+	background-color:#28B463;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px 2px 75px ;
+	cursor: pointer;
+	border-radius: 10px;
+	position:relative;
+}
+.abtn-login:hover{
+	padding:5px;
+	background-color:#229954;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px 2px 75px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.abtn-reg{
+	padding:5px;
+	background-color:#E74C3C ;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.abtn-reg:hover{
+	padding:5px;
+	background-color:#A93226;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin:5px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+/*----------------------------------------------------------------privacy page--------------------------------------------------------------------*/
+
+.amain_container
+{
+    width: 100%;
+    height:700px;
+    margin: 0 auto;
+
+
+}
+#abody{
+	background-color:#ffff76;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+.acontent2{
+
+        width: 100%;
+        height:616px ;
+
+}
+
+.acontent2 .apara{
+	
+	margin-left :120px;
+	margin-right:80px;
+	
+	
+	}
+
+
+    /*---------------------------------------------------------------------Registration page----------------------------*/
+
+    .amdimain_container {
+        width: 90%;
+        height: 956px;
+        margin: 0 auto;
+        background: #fffbfb;
+    }

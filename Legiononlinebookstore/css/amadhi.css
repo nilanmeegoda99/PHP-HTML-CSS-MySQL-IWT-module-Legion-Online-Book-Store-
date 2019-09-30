@@ -1,0 +1,152 @@
+.abord{
+	background-color:gray;
+	padding:5% 5% 5% 5% ;
+	margin:0% 25% 0% 25%;
+	border:groove,1px,black;
+	
+}
+.aspace{
+	
+	margin:2% 0% 0% 0%;
+	font-size:18;
+	left:50;
+	width:100%;
+}
+.albl{
+	width:300px;
+	height:50px;
+}
+.aspace .areglbl
+{
+	padding:10px;
+	width:300px;
+	margin-left : -10px;
+	
+}
+.asetrig{
+		
+	margin-left:180px;
+}
+.atrans{
+	background-color:rgba(225, 225, 226  ,0.92)
+}
+#areg-log{
+	background-image:url('../images/library-wallpaper.jpg');
+    background-repeat: no-repeat;
+    background-size: 100%;
+    background-position: fixed;
+}
+.awelcome{
+	font-family:Arial;
+	font-size:30px;
+	margin :5px;
+	padding:1px;
+	
+}
+.adefaultTextBox {
+    border-color:#D7BDE2;
+	height:4%;
+	width: 60%;
+	border: 1px solid #3366FF;
+	border-left: 4px solid #3366FF;
+	font-family:tahoma, arial, sans-serif;
+	font-size:18px;
+	position:static;
+}
+.adefaultTextBox:hover{
+	
+	height:4%;
+	width: 60%;
+	color:#333333;
+	border-left: 4px solid #3366FF;
+}
+.awel-wrap{
+	background-color: #2471A3;
+	padding:5px ;
+	margin:3% 25% 0% 25%;
+	border:groove,1px,black;
+}
+disabled{
+	background-color:gray;
+} 
+.abtn-login{
+	padding:5px;
+	background-color:#28B463;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px 2px 75px ;
+	cursor: pointer;
+	border-radius: 10px;
+	position:relative;
+}
+button:disabled{
+	cursor:disabled;
+	color:gray;
+	background-color:#aaaaaa;
+}
+.abtn-login:hover{
+	padding:5px;
+	background-color:#229954;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 2px 2px 2px 75px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.abtn-reg{
+	padding:5px;
+	background-color:#E74C3C ;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin: 5px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+.abtn-reg:hover{
+	padding:5px;
+	background-color:#A93226;
+	width:150px;
+	height:45px;
+	border:1px,#196F3D;
+	border: none;
+	color: white;
+	padding: 15px 32px;
+	text-align: center;
+	text-decoration: none;
+	display: inline-block;
+	font-size: 16px;
+	margin:5px;
+	cursor: pointer;
+	border-radius: 10px;
+}
+
+
+
+
+
+
+

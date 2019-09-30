@@ -1,0 +1,76 @@
+@charset "utf-8";
+/* CSS Document */
+:root {
+  --input-padding-x: 1.5rem;
+  --input-padding-y: 0.75rem;
+}
+
+.login,
+.image {
+  min-height: 100vh;
+}
+
+.bg-image {
+  background-image: url('../images/logingBg.jpg');
+  background-size: cover;
+  background-position: center;
+}
+
+.login-heading {
+  font-weight: 300;
+}
+
+.btn-login {
+  font-size: 0.9rem;
+  letter-spacing: 0.05rem;
+  padding: 0.75rem 1rem;
+  border-radius: 2rem;
+}
+.login-blue{
+	 background-color: #5F9EA0;
+}
+.login-blue:hover,
+.login-blue:focus {
+  background-color: #265a88;
+  background-position: 0 -15px;
+  color: #fff;
+}
+.register-red{
+	 background-color: #F08080;
+}
+.register-red:hover,
+.register-red:focus {
+  background-color: #c12e2a;
+  border-color: #b92c28;
+  color: #fff;
+}
+.facebook-blue{
+
+}
+.google-red{
+
+}
+/* Fallback for Edge
+-------------------------------------------------- */
+
+@supports (-ms-ime-align: auto) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input::-ms-input-placeholder {
+    color: #777;
+  }
+}
+
+/* Fallback for IE
+-------------------------------------------------- */
+
+@media all and (-ms-high-contrast: none),
+(-ms-high-contrast: active) {
+  .form-label-group>label {
+    display: none;
+  }
+  .form-label-group input:-ms-input-placeholder {
+    color: #777;
+  }
+}

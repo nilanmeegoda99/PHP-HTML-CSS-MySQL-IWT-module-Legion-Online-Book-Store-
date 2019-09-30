@@ -1,0 +1,147 @@
+@charset "utf-8";
+/* CSS Document */
+.cont{
+	width:360px;
+	height:600px;
+	background-image:url('../images/adlogbg.jpg');
+	position:absolute;
+	top:50%;
+	left:50%;
+	transform:translate(-50%,-50%);
+	color:#CCC;
+	text-align:center;
+}
+.it-container{
+	background-color: rgba(250,256, 256, 0.80);
+	color:#FFF;
+	height:950px;
+	width:50%;
+	padding:50px 0px 50px 0px;
+	padding-top:0px;
+	margin-top:50px;
+	margin-left:75px;
+	margin-right:75px;
+	margin-bottom:50px;
+	position:static;
+}
+.it-container h3{
+	background:#666666;
+	font-family:Arial, Helvetica, sans-serif;
+	color:#CCC;
+	height:20px;
+	width:50%;
+	text-align:center;
+	position:absolute;
+	padding-top:15px;
+	padding-bottom:15px;
+	margin-bottom:25px;
+}
+h3{
+ margin-bottom:20px;
+ font-size:24px;
+ }
+.it-text{
+
+	margin-left:25px;
+	margin-right:25px;
+	position:relative;
+	width:90%;
+	height:40px;
+	
+	background-color:#FFFFFF;
+	border-radius:0px;
+	font-size:18px;
+	transition:0.4s all;
+	padding:0px;
+}
+.it-textAr{
+	width: 90%;
+	height: 200px;
+	box-sizing: border-box;
+	border: 2px solid #ccc;
+	border-radius: 4px;
+	background-color: #FFFFFF;
+	background:none;
+	border:none;
+	outline::none;
+	font-size:14px;
+	
+}
+textarea{
+	border:groove #09F 1px;
+	width: 100%;
+	resize: none;
+	margin-bottom:1px;
+}
+.it-text input {
+	background:none;
+	border:none;
+	outline::none;
+	text-align:center;
+	width:100%;
+	line-height:37px;
+	font-size:14px;
+	
+}
+
+
+.box select {
+	line-height:37px;
+	background-color: #FFFFFF;
+	color: #000000;
+	padding: 0px;
+	padding-left:0px;
+	width:100%;
+	height:40px;
+	border: none;
+	font-size: 14px;
+	box-shadow: 0 5px 25px rgba(0, 0, 0, 0.2);
+	-webkit-appearance: button;
+	appearance: button;
+	outline: none;
+}
+select{
+	width::100%;
+	text-align:center;
+}
+.it-lbl{
+	color:#333;	
+	
+	width:90%;
+	text-align:left;
+	transform:scale(0px,14px);
+	
+}
+.addBtn{
+	width:90%;
+	height:50px;
+	background:#3498db;
+	margin:14px auto;
+	display:block;
+	font-size:16px;
+	border:none;
+	color:white;
+	cursor:pointer;
+	transition:0.9s all;
+}
+.canBtn{
+	background:#FF4646;	
+}
+.imgAdd{
+	background:#FF6600;
+	width:50%;	
+}
+.imgAdd:hover{
+	background-color:#F90;
+}
+#i_file{
+	color:#333;
+	width:100%;
+	height:40px;
+	cursor:pointer;
+	border:0px;
+}
+#i_file:hover{
+	background-color:#CCC;
+	border:1px dashed #333;
+}

@@ -1,0 +1,113 @@
+@charset "utf-8";
+/* CSS Document */
+.con-size{
+	width:100%;
+	background-color: rgba(250,256, 256, 0.80);
+	color:#FFF;
+	height:950px;
+	padding:50px 0px 50px 0px;
+	padding-top:0px;
+	margin-top:50px;
+	margin-bottom:50px;
+	position:static;
+}
+.top-row{
+	width:100%;
+	height:50px;
+	background-color:#333;
+	padding:2px;
+	font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+
+}
+
+.top-left{
+	padding-top:15px;
+	padding-left:10px;
+	left:0;
+}
+.top-right{
+	padding-right:10px;
+	right:0;
+	position:relative;
+	left:80%;
+	top:-30px;
+}
+table.item-table {
+  font-family: Tahoma, Geneva, sans-serif;
+  border: 0px groove #000000;
+  background-color: #FFFFFF;
+  width: 100%;
+  height: 100%;
+  text-align: left;
+  border-collapse: collapse;
+  transition:0.9s all;
+}
+table.item-table td, table.item-table th {
+  border: 1px solid #AAAAAA;
+  padding: 3px 2px;
+}
+table.item-table tbody td {
+  font-size: 13px;
+  color: #454854;
+}
+table.item-table tr:nth-child(even) {
+  background: #FFFFFF;
+}
+table.item-table thead {
+  background: #666666;
+  background: ;
+  background: ;
+  background: ;
+  border-bottom: 0px solid #444444;
+}
+table.item-table thead th {
+  font-size: 15px;
+  font-weight: bold;
+  color: #CCCCCC;
+  border-left: 0px solid #666F60;
+}
+table.item-table thead th:first-child {
+  border-left: none;
+}
+
+table.item-table tfoot td {
+  font-size: 14px;
+}
+table.item-table tfoot .links {
+  text-align: right;
+}
+table.item-table tfoot .links a{
+  display: inline-block;
+  background: #1C6EA4;
+  color: #FFFFFF;
+  padding: 2px 8px;
+  border-radius: 5px;
+}
+.btncell{
+  padding:0px;
+}
+.itbtn{
+  width:100%;
+  height:100%;
+  margin:0px;
+  border:0px;
+  cursor:pointer;
+  background-color:white;
+}
+.newBtn{
+	width:25%;
+	height:50px;
+	background:#34aadb;
+	margin:14px auto;
+	display:block;
+	font-size:16px;
+	border:none;
+	color:white;
+	cursor:pointer;
+	transition:0.9s all;
+	padding-right:10px;
+	
+}
+a{
+	text-decoration:none;
+}
